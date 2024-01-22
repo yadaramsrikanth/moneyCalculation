@@ -1,0 +1,15 @@
+.table-row {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  border: 1px solid #cbd5e1;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-top: none;
+}
+.table-text {
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 22px;
+  width: 30%;
+}

@@ -1,0 +1,126 @@
+.app-container {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.header-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 15px;
+  padding: 15px;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 38px;
+  font-weight: bold;
+  color: #475569;
+  margin-bottom: 0px;
+}
+.header-content {
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: 500;
+  margin-top: 0px;
+}
+.money-manager-text {
+  color: #0b69ff;
+}
+.transaction-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  min-height: 424px;
+
+  border: 1px solid #cbd5e1;
+  border-radius: 12px;
+  padding-top: 20px;
+  padding-right: 24px;
+  padding-left: 24px;
+  padding-bottom: 32px;
+}
+.transaction-heading {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 32px;
+}
+.label-element {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 28px;
+}
+.input-element {
+  padding: 12px;
+  font-size: 18px;
+  width: 50%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+button {
+  background-color: #0b69ff;
+  color: #ffffff;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-top: 10px;
+  font-size: 28px;
+  font-weight: bold;
+  width: 33%;
+  border: none;
+  border-radius: 12px;
+  outline: none;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .transaction-form {
+    width: 40%;
+  }
+  .history-transactions {
+    width: 55%;
+    margin-top: 0px;
+  }
+}
+
+.history-transactions {
+  border: 1px solid #cbd5e1;
+  min-height: 326px;
+  margin-top: 15px;
+  padding-top: 24px;
+  padding-right: 24px;
+  padding-left: 24px;
+  padding-bottom: 32px;
+  border-radius: 12px;
+}
+.transaction-history-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.table-header {
+  display: flex;
+  justify-content: flex-start;
+
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: 1px solid #cbd5e1;
+}
+.table-header-cell {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 22px;
+  width: 30%;
+ 
+  font-weight: 500;
+  border-right: none;
+}
